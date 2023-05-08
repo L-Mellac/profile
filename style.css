@@ -47,6 +47,10 @@ body {
   padding: 10px;
 }
 
+#btn-blue:hover {
+  background-color: #146C94;
+}
+
 a {
   text-decoration: none;
   color: white;
@@ -80,10 +84,16 @@ p, ul {
   padding: 10px;
 }
 
-ul {
+.social-buttons li {
   list-style: none;
+  display: inline;
+  padding: 10px;
 }
 
-li {
-  display: inline;
+.social-buttons img {
+  height: 30px;
+  opacity: 0.5;
+}
+.social-buttons img:hover{
+  opacity: 1;
 }
