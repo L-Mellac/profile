@@ -1,0 +1,73 @@
+.plan-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 450px;
+}
+
+.plan-card {
+  width: 320px;
+  height: 380px;
+  color: rgba(83, 83, 83, 0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(250,135,30);
+  border-radius: 20px;
+  box-shadow: 3px 3px 8px rgba(0,0,0,0.2);
+  padding: 30px 0px;
+  transition: height 1s;
+}
+
+.plan-card h2 {
+  font-weight: normal;
+  font-size: 28px;
+  margin: 15px 0px;
+  color: rgb(250,135,30);
+}
+
+.plan-card h3 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.plan-card p {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+
+.plan-card ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.plan-card li {
+  margin: 5px;
+}
+
+.plan-card i {
+  margin: 0px 6px;
+  color: rgb(250,135,30);
+}
+
+.plan-card:hover {
+  color: white;
+  background: rgb(250,135,30);
+  background: linear-gradient(90deg, rgba(250,135,30,1) 0%, rgba(250,175,70,1) 100%);
+}
+
+.plan-card:hover h2 {
+  color: white;
+}
+
+.plan-card:hover i {
+  color: white;
+}

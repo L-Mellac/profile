@@ -1,0 +1,29 @@
+.square {
+  width: 128px;
+  height: 128px;
+  margin: 8px;
+}
+
+.purple {
+  background-color: #8B1874;
+}
+
+.orange {
+  background-color: #FC4F00;
+}
+
+.orange-light {
+  background-color: #F79540;
+}
+
+.purple-light {
+  background-color: #B71375;
+}
+
+.name-box {
+  height: 128px;
+  width: 272px;
+  margin: 8px;
+  background-color: white;
+  color: black;
+}

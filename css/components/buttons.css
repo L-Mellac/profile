@@ -1,0 +1,14 @@
+.btn-white {
+  text-decoration: none;
+  background-color: white;
+  color: rgb(250,135,30);
+  padding: 10px 45px;
+  border-radius: 25px;
+  border: 2px solid rgb(250,135,30);
+  width: 120px;
+  transition: 1s;
+}
+
+.btn-white:hover {
+  opacity: 0.1;
+}

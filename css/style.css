@@ -1,0 +1,64 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700");
+@import url("https://use.fontawesome.com/releases/v6.1.2/css/all.css");
+
+/* Components */
+@import url("components/cards.css");
+@import url("components/buttons.css");
+
+
+body {
+  margin: 0;
+  margin-bottom: 100px;
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+  background-color: white;
+}
+
+h1 {
+  color: rgb(86,86,86);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.red-x i {
+  color: rgb(244, 107, 105);
+}
+
+.title-area {
+  width: 800px;
+  margin: auto;
+}
+
+.title-area h1 {
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.title-area p {
+  opacity: 0.8;
+  line-height: 1.8;
+}
+
+.social-buttons li {
+  list-style: none;
+  display: inline;
+  padding: 10px;
+}
+
+.social-buttons img {
+  height: 30px;
+  opacity: 0.5;
+}
+
+.social-buttons img:hover{
+  opacity: 1;
+  transition: 1s;
+}
