@@ -46,19 +46,3 @@ h1 {
   opacity: 0.8;
   line-height: 1.8;
 }
-
-.social-buttons li {
-  list-style: none;
-  display: inline;
-  padding: 10px;
-}
-
-.social-buttons img {
-  height: 30px;
-  opacity: 0.5;
-}
-
-.social-buttons img:hover{
-  opacity: 1;
-  transition: 1s;
-}

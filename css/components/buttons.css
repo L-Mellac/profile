@@ -2,13 +2,25 @@
   text-decoration: none;
   background-color: white;
   color: rgb(250,135,30);
-  padding: 10px 45px;
-  border-radius: 25px;
-  border: 2px solid rgb(250,135,30);
+  padding: 5px 28px;
+  border: 1px solid rgb(250,135,30);
   width: 120px;
   transition: 1s;
+  font-size: 14px;
 }
 
-.btn-white:hover {
-  opacity: 0.1;
+.social-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.social-buttons img {
+  height: 30px;
+  padding: 10px;
+  opacity: 0.5;
+}
+
+.social-buttons img:hover{
+  opacity: 1;
+  transition: 1s;
 }
